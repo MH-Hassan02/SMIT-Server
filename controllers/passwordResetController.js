@@ -1,5 +1,5 @@
 // controllers/authController.js
-const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 const MaleUser = require("../models/MaleUser");
 const FemaleUser = require("../models/FemaleUser");
 
