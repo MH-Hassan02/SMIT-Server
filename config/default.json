@@ -1,0 +1,5 @@
+{
+    "mongoURI": "mongodb+srv://haseebhassan1155:aahsah06@learningmongodb.cj7nr3r.mongodb.net/",
+    "jwtSecret": "saylaniNightmare",
+    "googleApiKey": "your_google_cloud_api_key"
+  }
