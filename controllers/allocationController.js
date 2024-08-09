@@ -16,7 +16,7 @@ exports.allocateClasses = async (req, res) => {
     }).limit(parseInt(numStudents)).exec();
     
     // Update users to assign the class
-    const classAlotted = `${coursePreference} - ${classPreference} - ${campusPreference}`;
+    const classAlotted = `${coursePreference} / ${classPreference} / ${campusPreference}`;
     const updatedUsers = await Promise.all(users.map(async (user) => {
       user.classAlotted = classAlotted;
       await user.save();
